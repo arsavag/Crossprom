@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Homepage </title>
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <link rel="stylesheet" href="css/libs/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <nav class="navbar navbar-expand-md fixed-top">
+                        <a class="navbar-brand" href="#"><img src="img/navbaricons/logo.svg" alt="" class="img-fluid"></a>
+                        <div class="row">
+                            <form action="" class="search-form d-sm-block d-md-none">
+                                <div class="form-group has-feedback position-relative mb-0">
+                                    <label for="search" class="sr-only">Search</label>
+                                    <img src="img/navbaricons/searchbtn.svg" alt="" class="searchIcon img-fluid position-absolute">
+                                    <input type="text" class="form-control" name="search" id="search" placeholder="search">
+
+                                </div>
+                            </form>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                                <img src="img/navbaricons/closedMenu.svg" alt="" class="img-responsive">
+                            </button>
+                        </div>
+                        <div class="collapse navbar-collapse" id="navbarCollapse">
+                            <ul class="navbar-nav position-absolute text-sm-center">
+                                <li class="nav-item d-none d-sm-none d-md-block pr-md-4">
+                                    <form action="" class="search-form">
+                                        <div class="form-group has-feedback position-relative mb-0">
+                                            <label for="search" class="sr-only">Search</label>
+                                            <img src="img/navbaricons/searchbtn.svg" alt="" class="searchIcon img-fluid position-absolute">
+                                            <input type="text" class="form-control" name="search" id="search" placeholder="search">
+
+                                        </div>
+                                    </form>
+                                </li>
+                                <li class="nav-item pr-md-4 py-md-0 py-lg-0 py-xl-0 py-4">
+                                    <a class="nav-link" href="#">How it Works</a>
+                                </li>
+                                <li class="nav-item pr-md-4 py-md-0 py-lg-0 py-xl-0 py-4">
+                                    <a class="nav-link" href="#">Login</a>
+                                </li>
+                                <li class="nav-item pr-md-3 py-md-0 py-lg-0 py-xl-0 py-4">
+                                    <button class="signUp" name="signup">Sign Up</button>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <!--
+    <section id="coming">
+        <div class="container-fluid">
+            <div class="row h-100">
+                <div class="col h-100">
+                    <div class="prod-wrapper">
+                        <img src="img/bg.svg" alt="" class="img-fluid">
+                        <div class="prod-start ml-5 pl-5">
+                            <p>Get Free Traffic and Attract more backers</p>
+                            <div class="sign-know">
+                                <button>SIGN UP</button>
+                                <a href="#" class="ml-4">How it works</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="mouse-down">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+-->
+    <section id="prod-list" class="mt-5">
+        <div class="container-fluid pl-sm-1 pl-0">
+            <div class="prod-navigation pt-5">
+                <div class="row">
+                    <div class="col">
+                        <div class="filter-select ml-sm-1 ml-1">
+                            <button class="select-toggler text-left dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">The closest update dates</button>
+                            <div class="dropdown-menu" id="selectCollapse">
+                                <ul class="option-dropdown text-left px-2">
+                                    <li class="option-item pt-3 pb-2">The closest update dates</li>
+                                    <li class="option-item py-2">The most backed</li>
+                                    <li class="option-item pt-2 pb-4">Most avaliable spots</li>
+                                    <li class="option-item pt-1 pb-3">Advanced search</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="view-variant float-sm-right ml-sm-0 ml-1">
+                            <ul class="variant-items mx-sm-0 pl-0 py-sm-0 py-3">
+                                <li class="item-list px-sm-3">Most Popular</li>
+                                <li class="item-list px-3 active-item-list">Newest</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 all_cards">
+                    <div class="card mx-auto p-3 mt-4">
+                        <div class="card-img">
+                            <img class="card-img-top img-fluid mx-auto" src="img/cardimg/varram.svg" alt="">
+                        </div>
+                        <div class="card-info">
+                            <div class="backers float-left ml-3 my-1">
+                                <p class="m-0">backers</p>
+                                <p class="backers-count m-0">12,944</p>
+                            </div>
+                            <div class="status-logo float-right mr-3">
+                                <span class="ended">Ended <img src="img/cardimg/cardicons/question.svg" class="img-fluid ml-2" alt=""></span>
+                                <span><img src="img/cardimg/cardicons/go.svg" class="img-fluid" alt=""></span>
+                            </div>
+                        </div>
+                        <div class="card-body px-0">
+                            <div class="title">
+                                <h4 class="card-title m-0">Varram</h4>
+                                <p class="author">By TCF</p>
+                            </div>
+                            <div class="desc">
+                                <p class="card-text">VARRAM makes sure your pets are active, healthy and never alone. Monitor your pet remotely.</p>
+                            </div>
+                            <div class="buttons clearfix mt-5">
+                                <a href="#" class="viewMore cardBtn float-left">View More</a>
+                                <a href="#" class="cpRequest cardBtn float-right">CP Request</a>
+                            </div>
+                        </div>
+                        <div class="card-foot px-0">
+                            <a href="#" class="message float-left"><img src="img/cardimg/cardicons/message.svg" alt=""></a>
+                            <a href="#" class="favorite float-right"><img src="img/cardimg/cardicons/favorite.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 all_cards">
+                    <div class="card mx-auto p-3 mt-4">
+                        <div class="card-img">
+                            <img class="card-img-top img-fluid mx-auto" src="img/cardimg/jacet.svg" alt="">
+                        </div>
+                        <div class="card-info">
+                            <div class="backers float-left ml-3 my-1">
+                                <p class="m-0">backers</p>
+                                <p class="backers-count m-0">81</p>
+                            </div>
+                            <div class="status-logo float-right mr-3">
+                                <span class="funding">Funding <img src="img/cardimg/cardicons/question.svg" class="img-fluid ml-2" alt=""></span>
+                                <span><img src="img/cardimg/cardicons/kikstart.svg" class="img-fluid" alt=""></span>
+                            </div>
+                        </div>
+                        <div class="card-body px-0">
+                            <div class="title">
+                                <h4 class="card-title m-0">The Ultimate Excursion Jacket</h4>
+                                <p class="author">By Todd Listwin</p>
+                            </div>
+                            <div class="desc">
+                                <p class="card-text">Similar function as an expensive waterproof jacket but with our city look style and half the price. With a NEW "purse pocket" feature</p>
+                            </div>
+                            <div class="buttons clearfix mt-5">
+                                <a href="#" class="viewMore cardBtn float-left">View More</a>
+                                <a href="#" class="cpRequest cardBtn float-right">CP Request</a>
+                            </div>
+                        </div>
+                        <div class="card-foot px-0">
+                            <a href="#" class="message float-left"><img src="img/cardimg/cardicons/message.svg" alt=""></a>
+                            <a href="#" class="favorite float-right"><img src="img/cardimg/cardicons/favorite.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 all_cards">
+                    <div class="card mx-auto p-3 mt-4">
+                        <div class="card-img">
+                            <img class="card-img-top img-fluid mx-auto" src="img/cardimg/robotic.svg" alt="">
+                        </div>
+                        <div class="card-info">
+                            <div class="backers float-left ml-3 my-1">
+                                <p class="m-0">backers</p>
+                                <p class="backers-count m-0">0</p>
+                            </div>
+                            <div class="status-logo float-right mr-3">
+                                <span class="soon">Soon <img src="img/cardimg/cardicons/question.svg" class="img-fluid ml-2" alt=""></span>
+                                <span><img src="img/cardimg/cardicons/go.svg" class="img-fluid" alt=""></span>
+                            </div>
+                        </div>
+                        <div class="card-body px-0">
+                            <div class="title">
+                                <h4 class="card-title m-0">MIND KIT: Maker Kit Exclusively for Robotics</h4>
+                                <p class="author">By Tianqi Sun</p>
+                            </div>
+                            <div class="desc">
+                                <p class="card-text">MIND KIT is the fastest, easiest way to get started with robotics. We provide you with a robotics-optimized single-board ...</p>
+                            </div>
+                            <div class="buttons clearfix mt-5">
+                                <a href="#" class="viewMore cardBtn float-left">View More</a>
+                                <a href="#" class="cpRequest cardBtn float-right">CP Request</a>
+                            </div>
+                        </div>
+                        <div class="card-foot px-0">
+                            <a href="#" class="message float-left"><img src="img/cardimg/cardicons/message.svg" alt=""></a>
+                            <a href="#" class="favorite float-right"><img src="img/cardimg/cardicons/favorite.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 all_cards">
+                    <div class="card mx-auto p-3 mt-4">
+                        <div class="card-img">
+                            <img class="card-img-top img-fluid mx-auto" src="img/cardimg/wiphone.svg" alt="">
+                        </div>
+                        <div class="card-info">
+                            <div class="backers float-left ml-3 my-1">
+                                <p class="m-0">backers</p>
+                                <p class="backers-count m-0">29,441</p>
+                            </div>
+                            <div class="status-logo float-right mr-3">
+                                <span class="canceled">Canceled <img src="img/cardimg/cardicons/question.svg" class="img-fluid ml-2" alt=""></span>
+                                <span><img src="img/cardimg/cardicons/go.svg" class="img-fluid" alt=""></span>
+                            </div>
+                        </div>
+                        <div class="card-body px-0">
+                            <div class="title">
+                                <h4 class="card-title m-0">WiPhone, A Phone for Hackers and Makers</h4>
+                                <p class="author">By HackEDA</p>
+                            </div>
+                            <div class="desc">
+                                <p class="card-text">WiPhone is a VoIP mobile phone designed for hackers and makers to be easily modified, repurposed, and adapted.</p>
+                            </div>
+                            <div class="buttons clearfix mt-5">
+                                <a href="#" class="viewMore cardBtn float-left">View More</a>
+                                <a href="#" class="cpRequest cardBtn float-right">CP Request</a>
+                            </div>
+                        </div>
+                        <div class="card-foot px-0">
+                            <a href="#" class="message float-left"><img src="img/cardimg/cardicons/message.svg" alt=""></a>
+                            <a href="#" class="favorite float-right"><img src="img/cardimg/cardicons/favorite.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 all_cards">
+                    <div class="card mx-auto p-3 mt-4">
+                        <div class="card-img">
+                            <img class="card-img-top img-fluid mx-auto" src="img/cardimg/rvr.svg" alt="">
+                        </div>
+                        <div class="card-info">
+                            <div class="backers float-left ml-3 my-1">
+                                <p class="m-0">backers</p>
+                                <p class="backers-count m-0">29,440</p>
+                            </div>
+                            <div class="status-logo float-right mr-3">
+                                <span class="funding">Funding <img src="img/cardimg/cardicons/question.svg" class="img-fluid ml-2" alt=""></span>
+                                <span><img src="img/cardimg/cardicons/kikstart.svg" class="img-fluid" alt=""></span>
+                            </div>
+                        </div>
+                        <div class="card-body px-0">
+                            <div class="title">
+                                <h4 class="card-title m-0">Sphero RVR – The go anywhere, do anything...</h4>
+                                <p class="author">By Sphero</p>
+                            </div>
+                            <div class="desc">
+                                <p class="card-text">Similar function as an expensive waterproof jacket but with our city look style and half the price. With a NEW "purse pocket" feature</p>
+                            </div>
+                            <div class="buttons clearfix mt-5">
+                                <a href="#" class="viewMore cardBtn float-left">View More</a>
+                                <a href="#" class="cpRequest cardBtn float-right">CP Request</a>
+                            </div>
+                        </div>
+                        <div class="card-foot px-0">
+                            <a href="#" class="message float-left"><img src="img/cardimg/cardicons/message.svg" alt=""></a>
+                            <a href="#" class="favorite float-right"><img src="img/cardimg/cardicons/favorite.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 all_cards">
+                    <div class="card mx-auto p-3 mt-4">
+                        <div class="card-img">
+                            <img class="card-img-top img-fluid mx-auto" src="img/cardimg/hiphen.svg" alt="">
+                        </div>
+                        <div class="card-info">
+                            <div class="backers float-left ml-3 my-1">
+                                <p class="m-0">backers</p>
+                                <p class="backers-count m-0">29,440</p>
+                            </div>
+                            <div class="status-logo float-right mr-3">
+                                <span class="indemand"> InDemand<img src="img/cardimg/cardicons/question.svg" class="img-fluid ml-2" alt=""></span>
+                                <span><img src="img/cardimg/cardicons/go.svg" class="img-fluid" alt=""></span>
+                            </div>
+                        </div>
+                        <div class="card-body px-0">
+                            <div class="title">
+                                <h4 class="card-title m-0">HYPHEN: The Gold Standard of Wireless Earbuds </h4>
+                                <p class="author">By John Smith</p>
+                            </div>
+                            <div class="desc">
+                                <p class="card-text">The wireless earbuds from the future. Touch Control. Wireless Charging. Powerful Bass. Bluetooth 5.</p>
+                            </div>
+                            <div class="buttons clearfix mt-5">
+                                <a href="#" class="viewMore cardBtn float-left">View More</a>
+                                <a href="#" class="cpRequest cardBtn float-right">CP Request</a>
+                            </div>
+                        </div>
+                        <div class="card-foot px-0">
+                            <a href="#" class="message float-left"><img src="img/cardimg/cardicons/message.svg" alt=""></a>
+                            <a href="#" class="favorite float-right"><img src="img/cardimg/cardicons/favorite.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 all_cards">
+                    <div class="card mx-auto p-3 mt-4">
+                        <div class="card-img">
+                            <img class="card-img-top img-fluid mx-auto" src="img/cardimg/hyperscrub.svg" alt="">
+                        </div>
+                        <div class="card-info">
+                            <div class="backers float-left ml-3 my-1">
+                                <p class="m-0">backers</p>
+                                <p class="backers-count m-0">304</p>
+                            </div>
+                            <div class="status-logo float-right mr-3">
+                                <span class="funding"> Funding<img src="img/cardimg/cardicons/question.svg" class="img-fluid ml-2" alt=""></span>
+                                <span><img src="img/cardimg/cardicons/kikstart.svg" class="img-fluid" alt=""></span>
+                            </div>
+                        </div>
+                        <div class="card-body px-0">
+                            <div class="title">
+                                <h4 class="card-title m-0">Hyperscrub: The 1st Medical-Grade Dog...</h4>
+                                <p class="author">By Hyperscrub Pet Care</p>
+                            </div>
+                            <div class="desc">
+                                <p class="card-text">Paw-centric design, safe, snug, easy-to-use and the ONLY deep paw cleansing scrubber for dogs.</p>
+                            </div>
+                            <div class="buttons clearfix mt-5">
+                                <a href="#" class="viewMore cardBtn float-left">View More</a>
+                                <a href="#" class="cpRequest cardBtn float-right">CP Request</a>
+                            </div>
+                        </div>
+                        <div class="card-foot px-0">
+                            <a href="#" class="message float-left"><img src="img/cardimg/cardicons/message.svg" alt=""></a>
+                            <a href="#" class="favorite float-right"><img src="img/cardimg/cardicons/favorite.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 all_cards">
+                    <div class="card mx-auto p-3 mt-4">
+                        <div class="card-img">
+                            <img class="card-img-top img-fluid mx-auto" src="img/cardimg/guitar.svg" alt="">
+                        </div>
+                        <div class="card-info">
+                            <div class="backers float-left ml-3 my-1">
+                                <p class="m-0">backers</p>
+                                <p class="backers-count m-0">107</p>
+                            </div>
+                            <div class="status-logo float-right mr-3">
+                                <span class="funding"> Funding<img src="img/cardimg/cardicons/question.svg" class="img-fluid ml-2" alt=""></span>
+                                <span><img src="img/cardimg/cardicons/go.svg" class="img-fluid" alt=""></span>
+                            </div>
+                        </div>
+                        <div class="card-body px-0">
+                            <div class="title">
+                                <h4 class="card-title m-0">Carbon Fiber Ukuleles and Guitars | KLŌS Guitars </h4>
+                                <p class="author">By KLOS Guitars</p>
+                            </div>
+                            <div class="desc">
+                                <p class="card-text">Carbon fiber ukuleles and full size dreadnought guitars in six different vibrant colors</p>
+                            </div>
+                            <div class="buttons clearfix mt-5">
+                                <a href="#" class="viewMore cardBtn float-left">View More</a>
+                                <a href="#" class="cpRequest cardBtn float-right">CP Request</a>
+                            </div>
+                        </div>
+                        <div class="card-foot px-0">
+                            <a href="#" class="message float-left"><img src="img/cardimg/cardicons/message.svg" alt=""></a>
+                            <a href="#" class="favorite float-right"><img src="img/cardimg/cardicons/favorite.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 mt-5">
+                    <div class="seeMore text-center my-5">
+                        <a href="javascript:void(0)" class="d-block see_more">See More</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <div class="container-fluid">
+            <div class="footer-place py-5 mt-5 border-bottom">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+                        <div class="contact-us text-sm-left text-center">
+                            <ul class="contact-list list-header p-0">
+                                <li class="contact-list-item mb-3"><b>Contact Us</b></li>
+                                <li class="contact-list-item"><a href="#">Help Center</a></li>
+                                <li class="contact-list-item"><a href="#">Leave feedback</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+                        <div class="about-us text-sm-left text-center my-sm-0 my-5">
+                            <ul class="about-list list-header p-0">
+                                <li class="about-list-item mb-3"><b>About Us</b></li>
+                                <li class="about-list-item"><a href="#">How it Works</a></li>
+                                <li class="about-list-item"><a href="#">FAQs</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+                        <div class="information text-sm-left text-center">
+                            <ul class="info-list list-header p-0">
+                                <li class="info-list-item mb-3"><b>Information</b></li>
+                                <li class="info-list-item"><a href="#">Privacy Policy</a></li>
+                                <li class="info-list-item"><a href="#">Terms Of Use</a></li>
+                                <li class="info-list-item"><a href="#">GDPR</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+                        <div class="social text-sm-left text-center my-sm-0 my-5">
+                            <ul class="social-list list-header p-0">
+                                <li class="social-list-item mb-3"><b>Socials</b></li>
+                                <li class="social-list-item d-inline"><a href="#"><img src="img/socialicons/facebook.svg" alt="" class="img-fluid"></a></li>
+                                <li class="social-list-item d-inline"><a href="#"><img src="img/socialicons/linkedin.svg" alt="" class="img-fluid"></a></li>
+                                <li class="social-list-item d-inline"><a href="#"><img src="img/socialicons/twitter.svg" alt="" class="img-fluid"></a></li>
+                                <li class="social-list-item d-inline"><a href="#"><img src="img/socialicons/instagram.svg" alt="" class="img-fluid"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="powered-by mt-4 text-center">
+                <div class="row">
+                    <div class="col">
+                        <p>Powered by The Crowdfunding Formula</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/libs/jquery.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="js/libs/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
